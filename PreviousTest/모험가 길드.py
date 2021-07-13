@@ -10,6 +10,7 @@ for i in guild:
   group += 1
   if i >= group:
     result += 1
+    group = 0
     
 print(result)
 
